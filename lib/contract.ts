@@ -13,3 +13,8 @@ export const contract = new ethers.Contract(
   ],
   provider
 );
+
+// MetaMask veya server-side signer ile mint yapmak için
+export const getSignerContract = (signer: ethers.Signer) => {
+  return contract.connect(signer);
+};
