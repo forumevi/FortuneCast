@@ -1,0 +1,10 @@
+# ignore hardhat and blockchain dev files so Next build doesn't try to compile them
+hardhat.config.ts
+hardhat.config.js
+/scripts
+/contracts
+/artifacts
+/cache
+/.github
+/.vscode
+/tests
