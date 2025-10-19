@@ -3,8 +3,20 @@ import { initReactI18next } from "react-i18next";
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { translation: { welcome: "Welcome", join: "Join Waitlist" } },
-    tr: { translation: { welcome: "Hoşgeldiniz", join: "Bekleme Listesine Katıl" } }
+    en: {
+      translation: {
+        welcome: "Welcome to Fortune Cast!",
+        join_waitlist: "Join the Waitlist",
+        enter_email: "Enter your email"
+      }
+    },
+    tr: {
+      translation: {
+        welcome: "FortuneCast'e Hoşgeldiniz!",
+        join_waitlist: "Bekleme Listesine Katıl",
+        enter_email: "E-posta adresinizi girin"
+      }
+    }
   },
   lng: "en",
   fallbackLng: "en",
